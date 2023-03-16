@@ -60,7 +60,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: bootloader binary
-        path: ${{ github.workspace }}/gateware/build/butterstick_r1d0/gateware/butterstick_r1d0.dfu
+        path: ${{ github.workspace }}
   
   # release:
   #   name: Create Release
